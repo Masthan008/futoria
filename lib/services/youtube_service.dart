@@ -163,7 +163,7 @@ class YouTubeService {
         id: 'rfscVS0vtbw',
         title: 'Introduction to $query - Complete Guide',
         thumbnailUrl: 'https://img.youtube.com/vi/rfscVS0vtbw/0.jpg',
-        channelTitle: 'FuturePath Learning Hub',
+        channelTitle: 'Futoria Learning Hub',
         duration: '45:00',
         viewCount: '150K views',
       ),

@@ -100,7 +100,7 @@ class AppProvider with ChangeNotifier {
     if (_mentorChatHistory.isEmpty) {
       _mentorChatHistory.add({
         'role': 'model',
-        'text': 'Hello! I am your FuturePath AI Mentor. I help students select the right branch, plan their college years, map trending skills, and explore daily job roles. Tell me: What are you studying currently, or what branch are you planning to choose? Also, let me know if you prefer coding, hardware design, or working with mechanical systems!'
+        'text': 'Hello! I am your Futoria AI Mentor. I help students select the right branch, plan their college years, map trending skills, and explore daily job roles. Tell me: What are you studying currently, or what branch are you planning to choose? Also, let me know if you prefer coding, hardware design, or working with mechanical systems!'
       });
     }
 
@@ -147,7 +147,7 @@ class AppProvider with ChangeNotifier {
         : 'Student';
     _mentorChatHistory.add({
       'role': 'model',
-      'text': 'Hello $studentName! I am your FuturePath AI Mentor. I am here to guide your academic journey in ${_profile.branch}. Ask me about any topic, course, syllabus, or request video tutorials (e.g. C programming, Python, VLSI, EV, Structural Engg) and I will provide instant answers and video links!'
+      'text': 'Hello $studentName! I am your Futoria AI Mentor. I am here to guide your academic journey in ${_profile.branch}. Ask me about any topic, course, syllabus, or request video tutorials (e.g. C programming, Python, VLSI, EV, Structural Engg) and I will provide instant answers and video links!'
     });
   }
 
@@ -388,7 +388,7 @@ class AppProvider with ChangeNotifier {
     _mentorChatHistory = [
       {
         'role': 'model',
-        'text': 'Hello! I am your FuturePath AI Mentor. I help students select the right branch, plan their college years, map trending skills, and explore daily job roles. Tell me: What are you studying currently, or what branch are you planning to choose? Also, let me know if you prefer coding, hardware design, or working with mechanical systems!'
+        'text': 'Hello! I am your Futoria AI Mentor. I help students select the right branch, plan their college years, map trending skills, and explore daily job roles. Tell me: What are you studying currently, or what branch are you planning to choose? Also, let me know if you prefer coding, hardware design, or working with mechanical systems!'
       }
     ];
     _careerSimulationCache = null;

@@ -118,8 +118,8 @@ class UserProfile {
   factory UserProfile.empty() {
     return UserProfile(
       uid: 'demo_user',
-      email: 'demo@futurepath.ai',
-      displayName: 'Future Path Finder',
+      email: 'demo@futoria.ai',
+      displayName: 'Futoria Student',
       age: 18,
       interPassOutYear: '2024',
       courseLevel: 'B.Tech',
