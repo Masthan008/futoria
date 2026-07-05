@@ -1,0 +1,1701 @@
+{
+    "interview_data": [
+        {
+            "company": "Infosys",
+            "questions": [
+                {
+                    "id": "INF_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "What is the difference between Method Overloading and Method Overriding?",
+                    "answer": "Method Overloading happens within the same class where multiple methods share the same name but have different parameter lists (compile-time polymorphism). Method Overriding occurs when a subclass provides a specific implementation for a method already defined in its parent class, using the exact same signature (runtime polymorphism)."
+                },
+                {
+                    "id": "INF_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between a Primary Key and a Unique Key?",
+                    "answer": "A Primary Key uniquely identifies each record in a table, automatically applies a NOT NULL constraint, and a table can only have one. A Unique Key also ensures uniqueness across columns, but it allows a single NULL value, and a table can have multiple Unique Keys."
+                },
+                {
+                    "id": "INF_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "Explain the difference between an Array and a Linked List.",
+                    "answer": "Arrays store elements in contiguous memory locations, allowing fast O(1) random access, but have a fixed size. Linked Lists store elements dynamically in non-contiguous locations, where each node points to the next; this allows efficient O(1) insertion and deletion but results in slower O(n) sequential access."
+                },
+                {
+                    "id": "INF_TECH_004",
+                    "category": "Technical",
+                    "sub_category": "Software Engineering",
+                    "question": "What is the difference between the Waterfall model and Agile methodology?",
+                    "answer": "Waterfall is a linear, sequential approach where each phase must finish before the next begins, making it rigid and hard to alter mid-project. Agile is iterative and incremental, breaking the project into small sprints to allow constant feedback, testing, and flexibility to changes."
+                },
+                {
+                    "id": "INF_TECH_005",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the purpose of the 'final' keyword in Java?",
+                    "answer": "The 'final' keyword applies restrictions: a final variable's value cannot be modified once assigned, a final method cannot be overridden by subclasses, and a final class cannot be inherited or extended."
+                },
+                {
+                    "id": "INF_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Problem Solving",
+                    "question": "How do you handle a situation where a requirement changes mid-way through a project sprint?",
+                    "answer": "I immediately assess the impact of the change on the current timeline and dependencies. I then discuss it with the team and project manager to prioritize the new requirement against existing tasks, ensuring transparent communication about any potential delivery delays."
+                },
+                {
+                    "id": "INF_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Alignment",
+                    "question": "Why do you want to join Infosys?",
+                    "answer": "Infosys is a global leader in digital services known for its world-class training programs, like the Global Education Center in Mysore. Joining Infosys offers a stable foundation to work on large-scale enterprise projects and learn industry best practices alongside top professionals."
+                },
+                {
+                    "id": "INF_HR_002",
+                    "category": "HR",
+                    "sub_category": "Flexibility",
+                    "question": "Are you comfortable signing a service agreement or bond if required?",
+                    "answer": "Yes, I understand that Infosys invests significantly in training freshers to make them project-ready. I am fully committed to growing with the company and have no issues complying with standard organizational policies."
+                }
+            ]
+        },
+        {
+            "company": "Accenture",
+            "questions": [
+                {
+                    "id": "ACC_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Cloud Computing",
+                    "question": "What are the primary service models in Cloud Computing?",
+                    "answer": "The three primary models are: Infrastructure as a Service (IaaS), providing virtualized computing resources over the internet; Platform as a Service (PaaS), offering hardware and software tools for application development; and Software as a Service (SaaS), delivering fully functional end-user applications."
+                },
+                {
+                    "id": "ACC_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What do ACID properties stand for in a database?",
+                    "answer": "ACID ensures reliable transaction processing: Atomicity (the entire transaction succeeds or completely fails), Consistency (data moves from one valid state to another), Isolation (concurrent transactions don't interfere with each other), and Durability (committed data survives system crashes)."
+                },
+                {
+                    "id": "ACC_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Programming Concepts",
+                    "question": "What is Exception Handling, and why is it important?",
+                    "answer": "Exception Handling is a mechanism to handle runtime errors (like division by zero or file not found) gracefully without crashing the application. It uses try, catch, and finally blocks to isolate error-prone code and maintain normal application flow."
+                },
+                {
+                    "id": "ACC_TECH_004",
+                    "category": "Technical",
+                    "sub_category": "Web Technology",
+                    "question": "What is the difference between GET and POST HTTP requests?",
+                    "answer": "GET requests parameters inside the URL string, meaning data is visible, cached, and limited in length. POST requests send data securely inside the HTTP message body, making it hidden from the URL, non-cacheable, and capable of handling large binary payloads."
+                },
+                {
+                    "id": "ACC_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Teamwork",
+                    "question": "Describe how you would handle working with a difficult team member.",
+                    "answer": "I would schedule a private, casual conversation to understand their perspective and align on common goals. I focus entirely on the facts of the tasks rather than personal friction, ensuring all assignments and expectations are clearly documented."
+                },
+                {
+                    "id": "ACC_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Culture",
+                    "question": "Why Accenture?",
+                    "answer": "Accenture is renowned for its heavy focus on innovation, digital transformation, and cross-industry consulting strategy. Working here gives me the chance to solve complex, real-world problems using cutting-edge technologies like Cloud and AI, while thriving in an inclusive corporate culture."
+                },
+                {
+                    "id": "ACC_HR_002",
+                    "category": "HR",
+                    "sub_category": "Adaptability",
+                    "question": "How do you feel about working in rotational shifts?",
+                    "answer": "As Accenture services global clients across multiple time zones, I am completely flexible and comfortable working in rotational or night shifts to ensure uninterrupted project delivery."
+                }
+            ]
+        },
+        {
+            "company": "Wipro",
+            "questions": [
+                {
+                    "id": "WIP_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What is the use of the 'static' keyword in C?",
+                    "answer": "The 'static' keyword preserves the value of a variable even after it exits its scope. When applied to a local variable inside a function, the variable retains its value between multiple function calls. When applied to a global variable or function, it limits their visibility to the file in which they are declared."
+                },
+                {
+                    "id": "WIP_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "What is a Stack, and what are its core operations?",
+                    "answer": "A Stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle. Its core operations are Push (inserting an element onto the top of the stack), Pop (removing the top element), and Peek or Top (viewing the top element without removing it)."
+                },
+                {
+                    "id": "WIP_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between a clustered and a non-clustered index?",
+                    "answer": "A clustered index determines the physical order of data rows in a table based on the key values, meaning a table can have only one clustered index. A non-clustered index creates a separate structure containing the key values and pointers to the physical rows, allowing a table to have multiple non-clustered indexes."
+                },
+                {
+                    "id": "WIP_TECH_004",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the difference between String, StringBuffer, and StringBuilder in Java?",
+                    "answer": "String objects are immutable, meaning their values cannot be changed after creation. StringBuffer is mutable and thread-safe (synchronized), making it safe for multi-threaded environments but slower. StringBuilder is also mutable but not thread-safe, offering faster execution speeds for single-threaded applications."
+                },
+                {
+                    "id": "WIP_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Conflict Resolution",
+                    "question": "How do you handle a situation where a teammate is not contributing to a group project?",
+                    "answer": "I speak with the teammate privately to understand if they are facing technical blocks or personal challenges. I help them break down their assigned tasks into smaller, manageable steps and establish a clear tracking plan to keep the project moving forward dynamically."
+                },
+                {
+                    "id": "WIP_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Integration",
+                    "question": "Why do you want to start your career at Wipro?",
+                    "answer": "Wipro offers a strong foundation for freshers through its comprehensive onboarding frameworks and continuous learning platforms. The company's focus on sustainability, ethical business practices, and global delivery exposure makes it an ideal environment to transition from academic learning to professional software development."
+                }
+            ]
+        },
+        {
+            "company": "Cognizant",
+            "questions": [
+                {
+                    "id": "CTS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the difference between an Interface and an Abstract Class in Java?",
+                    "answer": "An interface specifies what a class should do but not how (supports multiple inheritance, all variables are public static final). An abstract class can have both abstract methods (without a body) and concrete methods (with a body), maintains an instance state, and does not support multiple inheritance."
+                },
+                {
+                    "id": "CTS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is Virtual Memory, and how does it function?",
+                    "answer": "Virtual Memory is a storage allocation scheme that maps addresses used by an application into physical addresses in computer memory. It allows the system to execute programs larger than the physical RAM by temporarily transferring data blocks (pages) from the RAM to a hard disk space (swap space)."
+                },
+                {
+                    "id": "CTS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is a Foreign Key, and why is it used?",
+                    "answer": "A Foreign Key is a column or a group of columns in one database table that uniquely identifies a row of another table (or the same table). It establishes a link between the data in two tables, ensuring referential integrity by preventing actions that would destroy links between them."
+                },
+                {
+                    "id": "CTS_TECH_004",
+                    "category": "Technical",
+                    "sub_category": "Web Technology",
+                    "question": "What is the difference between client-side scripting and server-side scripting?",
+                    "answer": "Client-side scripting (like JavaScript) executes directly within the user's web browser to manage user interface animations and form validations. Server-side scripting (like Node.js or Python) executes on the web server to process database interactions, user authentication, and business logic before serving HTML back to the client."
+                },
+                {
+                    "id": "CTS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Adaptability",
+                    "question": "How do you handle ambiguous requirements given by a client?",
+                    "answer": "I document the initial parameters clearly, highlighting the gaps or assumptions. I then set up a brief sync alignment meeting with the project manager or client to walk through specific use cases, clarifying expectations before writing any foundational code."
+                },
+                {
+                    "id": "CTS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Growth",
+                    "question": "Why are you interested in joining Cognizant?",
+                    "answer": "Cognizant's reputation as a rapid-growth digital transformation leader stands out. The organization's focus on emerging tech domains like AI, data analytics, and cloud migration offers an excellent trajectory for freshers to upskill through hands-on corporate project deployments."
+                }
+            ]
+        },
+        {
+            "company": "HCLTech",
+            "questions": [
+                {
+                    "id": "HCL_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What is the difference between structural structures using 'struct' and 'union' in C?",
+                    "answer": "A 'struct' allocates unique memory locations for each of its members, allowing all members to hold distinct values simultaneously. A 'union' allocates a single shared memory block equivalent to its largest member, meaning only one member can store a valid value at any given time."
+                },
+                {
+                    "id": "HCL_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "Explain the working principle of a Queue data structure.",
+                    "answer": "A Queue is a linear structure that operates on the First-In, First-Out (FIFO) principle. Elements are inserted at the back (Enqueue operation) and removed from the front (Dequeue operation), mirroring real-world queuing systems."
+                },
+                {
+                    "id": "HCL_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the difference between TCP and UDP protocols?",
+                    "answer": "Transmission Control Protocol (TCP) is connection-oriented, ensuring reliable data delivery, error checking, and packet sequencing at the cost of speed. User Datagram Protocol (UDP) is connectionless, sending packets without verification, which makes it faster but less reliable—ideal for live streaming or gaming."
+                },
+                {
+                    "id": "HCL_TECH_004",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "What is the difference between runtime polymorphism and compile-time polymorphism?",
+                    "answer": "Compile-time polymorphism (static binding) resolves method calls during compilation using method overloading or operator overloading. Runtime polymorphism (dynamic binding) resolves method calls at runtime using method overriding, where the executed code depends on the specific object instance."
+                },
+                {
+                    "id": "HCL_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Time Management",
+                    "question": "How do you ensure task delivery when juggling academic deadlines alongside software learning tracks?",
+                    "answer": "I implement a strict prioritization grid, breaking milestones into daily micro-tasks. I tackle high-risk, critical items early in the day and use calendar blockers to ensure sustained, distraction-free technical execution blocks."
+                },
+                {
+                    "id": "HCL_HR_001",
+                    "category": "HR",
+                    "sub_category": "Culture Alignment",
+                    "question": "What attracts you to HCLTech's working culture?",
+                    "answer": "HCLTech's core culture philosophy highlights entrepreneurial ownership and grassroots engineering innovation. As a fresher, working within an ecosystem that encourages proactive problem-solving and values continuous technical upskilling is incredibly motivating."
+                }
+            ]
+        },
+        {
+            "company": "Capgemini",
+            "questions": [
+                {
+                    "id": "CAP_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between the SQL commands 'DROP', 'TRUNCATE', and 'DELETE'?",
+                    "answer": "'DROP' removes the entire table structure, indexes, and data from the database completely. 'TRUNCATE' removes all rows from an existing table structure without logging individual row deletions, making it faster. 'DELETE' is a data manipulation command that removes specific rows based on a WHERE clause and logs each deletion."
+                },
+                {
+                    "id": "CAP_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "What is a Binary Search Tree (BST)?",
+                    "answer": "A Binary Search Tree is a node-based binary tree data structure where the left subtree of a node contains only nodes with keys less than the node's key, and the right subtree contains only nodes with keys greater than the node's key. This property allows efficient searching, insertion, and deletion operations."
+                },
+                {
+                    "id": "CAP_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Cloud Computing",
+                    "question": "What is the main difference between Public Cloud and Private Cloud environments?",
+                    "answer": "A Public Cloud shares computing infrastructure across multiple tenants over the public internet, managed by external providers like AWS or Azure. A Private Cloud allocates dedicated infrastructure solely to a single organization, managed either internally or hosted by a third party, providing higher security isolation."
+                },
+                {
+                    "id": "CAP_TECH_004",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the purpose of Garbage Collection in Java?",
+                    "answer": "Garbage Collection is an automated process in the Java Virtual Machine (JVM) that monitors memory heap allocation, identifies dynamically allocated objects that are no longer referenced anywhere in the active application, and reclaims their memory space to prevent leaks."
+                },
+                {
+                    "id": "CAP_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Critical Thinking",
+                    "question": "How do you present a complex technical solution to a non-technical manager?",
+                    "answer": "I strip away language-specific syntax or low-level implementation details, focusing instead on structural diagrams, input-output behaviors, and overall business impacts. I use structural architectural maps to keep the logic visual and accessible."
+                },
+                {
+                    "id": "CAP_HR_001",
+                    "category": "HR",
+                    "sub_category": "Corporate Values",
+                    "question": "Why would you choose Capgemini for your engineering career?",
+                    "answer": "Capgemini's strong positioning in global IT consulting and technical system integration offers wide domain exposure. Their dedication to inclusive workplaces and collaborative cross-border teaming gives engineering freshers a distinct advantage when launching scalable technical systems."
+                }
+            ]
+        },
+        {
+            "company": "Tech Mahindra",
+            "batch": 3,
+            "questions": [
+                {
+                    "id": "TECHM_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the difference between a Router and a Switch?",
+                    "answer": "A Switch operates at the Data Link Layer (Layer 2) and forwards data packets between devices within the same network using MAC addresses. A Router operates at the Network Layer (Layer 3) and forwards data packets between different networks using IP addresses."
+                },
+                {
+                    "id": "TECHM_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is a Stored Procedure?",
+                    "answer": "A Stored Procedure is a prepared SQL code that you can save and reuse over and over again. It allows for modular programming, faster execution (since it's pre-compiled), and reduced network traffic because multiple SQL statements are bundled into a single call."
+                },
+                {
+                    "id": "TECHM_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "Can we overload or override a static method in Java?",
+                    "answer": "You can overload a static method by providing another static method with the same name but different parameters. However, you cannot override a static method because method overriding is based on dynamic binding at runtime, whereas static methods are bonded statically at compile time."
+                },
+                {
+                    "id": "TECHM_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Agile Methodologies",
+                    "question": "What is your understanding of a Scrum Sprint?",
+                    "answer": "A Sprint is a short, time-boxed period (usually 1-4 weeks) during which a Scrum team works to complete a set amount of work. It involves daily stand-ups to track progress and ends with a sprint review and retrospective to deliver a potentially shippable product increment."
+                },
+                {
+                    "id": "TECHM_HR_001",
+                    "category": "HR",
+                    "sub_category": "Adaptability",
+                    "question": "Tech Mahindra heavily services the telecom sector. Are you open to learning domain-specific telecom knowledge?",
+                    "answer": "Absolutely. I understand that writing effective software requires understanding the business logic behind it. I am eager to bridge my core programming skills with telecom domain expertise to build more relevant solutions."
+                }
+            ]
+        },
+        {
+            "company": "IBM",
+            "batch": 3,
+            "questions": [
+                {
+                    "id": "IBM_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Cloud Computing",
+                    "question": "What is the concept of Containerization, and how does it differ from Virtual Machines?",
+                    "answer": "Containerization packages an application and its dependencies together so it runs uniformly on any infrastructure. Unlike Virtual Machines, which require a full guest Operating System for every instance, containers share the host system's OS kernel, making them much more lightweight and faster to start."
+                },
+                {
+                    "id": "IBM_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "Explain the concept of Paging in OS memory management.",
+                    "answer": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory. The OS retrieves data from secondary storage in same-size blocks called 'pages' and maps them to physical memory frames, resolving external fragmentation issues."
+                },
+                {
+                    "id": "IBM_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Linux",
+                    "question": "How do you find all files in a directory containing a specific word in Linux?",
+                    "answer": "You use the 'grep' command combined with a recursive flag. The command 'grep -rn \"word\" /path/to/directory/' will search recursively (-r), print the line numbers (-n), and locate all files containing the specified word."
+                },
+                {
+                    "id": "IBM_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Innovation",
+                    "question": "Describe a time you proposed a new tool or process to improve efficiency.",
+                    "answer": "During a college project, our team struggled with version control using shared zip files. I introduced the team to Git and GitHub, leading a brief tutorial on committing and branching. It eliminated our code conflicts and cut our integration time in half."
+                },
+                {
+                    "id": "IBM_HR_001",
+                    "category": "HR",
+                    "sub_category": "Core Values",
+                    "question": "IBM focuses heavily on continuous learning. How do you keep your skills updated?",
+                    "answer": "I actively follow tech blogs, participate in hackathons, and utilize platforms like GitHub to read open-source code. When I identify a gap in my knowledge, I take targeted online courses and immediately apply the concept in a small personal project."
+                }
+            ]
+        },
+        {
+            "company": "Oracle",
+            "batch": 3,
+            "questions": [
+                {
+                    "id": "ORC_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between a View and a Materialized View?",
+                    "answer": "A standard View is a virtual table created by a query; it does not store data physically and fetches data from the underlying tables every time it is queried. A Materialized View physically stores the queried data on disk, which drastically improves read performance for complex queries but requires periodic refreshing."
+                },
+                {
+                    "id": "ORC_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "SQL",
+                    "question": "Explain the difference between the RANK() and DENSE_RANK() functions.",
+                    "answer": "Both functions assign a rank to rows in a result set. However, if two rows have the same rank, RANK() will skip the next subsequent number (e.g., 1, 2, 2, 4), while DENSE_RANK() will not skip numbers and maintains a consecutive sequence (e.g., 1, 2, 2, 3)."
+                },
+                {
+                    "id": "ORC_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "How do you detect a cycle in a Linked List?",
+                    "answer": "A cycle can be detected using Floyd’s Cycle-Finding Algorithm (the Tortoise and Hare approach). We use two pointers moving at different speeds (one moves one node at a time, the other moves two). If the pointers meet at any point, a cycle exists."
+                },
+                {
+                    "id": "ORC_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Quality Assurance",
+                    "question": "How do you ensure the database schema you design is scalable?",
+                    "answer": "I start by ensuring strict normalization up to 3NF to prevent data anomalies. I also plan for appropriate indexing on heavily queried columns, consider partitioning strategies for large tables, and validate the schema against expected future business use-cases."
+                },
+                {
+                    "id": "ORC_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Knowledge",
+                    "question": "Why Oracle?",
+                    "answer": "Oracle sets the global standard for enterprise database systems and cloud infrastructure. Starting my career here means learning data management and backend architecture at an unprecedented scale, surrounded by the engineers who literally wrote the industry standards."
+                }
+            ]
+        },
+        {
+            "company": "Cisco",
+            "batch": 3,
+            "questions": [
+                {
+                    "id": "CIS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "Explain the TCP 3-way handshake process.",
+                    "answer": "It is the process used to establish a reliable connection. First, the client sends a SYN (Synchronize) packet to the server. The server replies with a SYN-ACK (Synchronize-Acknowledge). Finally, the client sends an ACK (Acknowledge) back to the server, and data transmission can begin."
+                },
+                {
+                    "id": "CIS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "How do you manipulate a specific bit in a variable in C?",
+                    "answer": "You use Bitwise operators. To set a bit, use the OR operator (|). To clear a bit, use the AND operator (&) with a negated mask (~). To toggle a bit, use the XOR operator (^). For example, to set the nth bit: 'num = num | (1 << n)'."
+                },
+                {
+                    "id": "CIS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is the role of an ARP (Address Resolution Protocol)?",
+                    "answer": "ARP acts as the bridge between Layer 2 (Data Link) and Layer 3 (Network). It resolves a known IP address to an unknown MAC address on a local network, allowing packets to be physically delivered to the correct network interface."
+                },
+                {
+                    "id": "CIS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Troubleshooting",
+                    "question": "Walk me through your methodology for troubleshooting a system failure.",
+                    "answer": "I follow a top-down isolation approach. I verify the physical and network connections first, then review the application logs for exact error codes. I isolate the last known working state, test variables one by one, and document the final fix to update our knowledge base."
+                },
+                {
+                    "id": "CIS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Culture Fit",
+                    "question": "Cisco builds the backbone of the internet. How do you handle working on high-stakes projects?",
+                    "answer": "I handle high stakes by relying on rigorous testing. I never deploy to production without writing comprehensive unit tests and pushing the code through a staging environment first. Process and preparation negate panic."
+                }
+            ]
+        },
+        {
+            "company": "Microsoft",
+            "batch": 4,
+            "questions": [
+                {
+                    "id": "MS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "Explain the difference between a Binary Tree and a Binary Search Tree.",
+                    "answer": "A Binary Tree is a hierarchical structure where each node has at most two children, with no specific order imposed. A Binary Search Tree is a specialized Binary Tree where the left child must be less than the parent node, and the right child must be greater, enabling rapid binary search."
+                },
+                {
+                    "id": "MS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "System Design",
+                    "question": "What is the CAP Theorem?",
+                    "answer": "The CAP theorem states that a distributed data store can only guarantee two of the following three properties simultaneously: Consistency (every read receives the most recent write), Availability (every request receives a response), and Partition Tolerance (the system continues to operate despite network failures dropping messages)."
+                },
+                {
+                    "id": "MS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "How do you find the missing number in a given integer array of 1 to N?",
+                    "answer": "Calculate the expected sum of the first N numbers using the formula n*(n+1)/2. Then, iterate through the given array and calculate its actual sum. The difference between the expected sum and the actual sum is the missing number. This solves it in O(n) time and O(1) space."
+                },
+                {
+                    "id": "MS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Product Sense",
+                    "question": "If you had to design a feature for an existing Microsoft product, what would it be and why?",
+                    "answer": "I would introduce seamless Git integration natively into Microsoft Word, styled like 'Track Changes' but functioning like version control. This would allow multiple technical and non-technical writers to branch, merge, and resolve conflicts in heavy documentation without leaving the Word interface."
+                },
+                {
+                    "id": "MS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Growth Mindset",
+                    "question": "Microsoft values a 'Growth Mindset'. Tell me about a time you had to pivot your thinking entirely.",
+                    "answer": "Initially, I strongly preferred Object-Oriented Programming for all tasks. However, during a data-processing project, my OOP architecture proved too slow. I had to unlearn my bias and adopt Functional Programming principles, which drastically optimized our execution speed and taught me to fit the tool to the problem."
+                }
+            ]
+        },
+        {
+            "company": "Google",
+            "batch": 4,
+            "questions": [
+                {
+                    "id": "GOOG_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "Explain how a Hash Map works internally.",
+                    "answer": "A Hash Map uses a hash function to compute an index (hash code) from a key, which maps to a bucket in an array where the value is stored. If multiple keys hash to the same bucket (a collision), data structures like a linked list or binary search tree are used inside that bucket to store the colliding elements."
+                },
+                {
+                    "id": "GOOG_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "What is a Trie data structure and where is it used?",
+                    "answer": "A Trie (Prefix Tree) is a specialized tree used to store associative arrays where keys are usually strings. Every node represents a single character of a string. It is highly efficient for prefix-matching operations and is heavily used in search engine autocomplete features and spell checkers."
+                },
+                {
+                    "id": "GOOG_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "System Design",
+                    "question": "How does a Load Balancer work?",
+                    "answer": "A load balancer acts as a reverse proxy, distributing incoming network traffic across multiple backend servers using algorithms like Round Robin, Least Connections, or IP Hash. This ensures no single server becomes overwhelmed, improving application responsiveness and availability."
+                },
+                {
+                    "id": "GOOG_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Ambiguity",
+                    "question": "How do you proceed when tasked with a problem that has no clear correct answer?",
+                    "answer": "I break the ambiguous problem down into hypotheses. I build the smallest possible prototype for the most likely hypothesis, define metrics for success, and test it quickly. Iterative testing reveals the correct path when theoretical planning cannot."
+                },
+                {
+                    "id": "GOOG_HR_001",
+                    "category": "HR",
+                    "sub_category": "Googleyness",
+                    "question": "Tell me about a time you stepped outside your official role to help the team.",
+                    "answer": "During a hackathon, our UI designer fell ill on the final day. Though I was the backend developer, I spent the final four hours learning Figma on the fly to patch together a functional front-end interface, ensuring we had a complete product to present to the judges."
+                }
+            ]
+        },
+        {
+            "company": "Amazon",
+            "batch": 4,
+            "questions": [
+                {
+                    "id": "AMZ_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "What is Dynamic Programming?",
+                    "answer": "Dynamic Programming is an optimization technique used to solve complex problems by breaking them down into simpler overlapping subproblems. It stores the results of these subproblems (memoization) so they do not need to be recomputed, drastically reducing time complexity."
+                },
+                {
+                    "id": "AMZ_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "How do you traverse a Binary Tree in Level Order?",
+                    "answer": "Level order traversal (Breadth-First Search) visits nodes level by level from top to bottom, left to right. It is implemented using a Queue. You enqueue the root, then loop: dequeue a node, process it, and enqueue its left and right children until the queue is empty."
+                },
+                {
+                    "id": "AMZ_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "System Design",
+                    "question": "Explain the difference between SQL and NoSQL databases.",
+                    "answer": "SQL databases are relational, use a fixed schema, and are vertically scalable, making them ideal for complex queries and ACID compliance. NoSQL databases are non-relational, have dynamic schemas (like JSON documents), and are horizontally scalable, making them better for rapidly changing, unstructured data."
+                },
+                {
+                    "id": "AMZ_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Customer Obsession",
+                    "question": "Tell me about a time you prioritized the end-user over a technical preference.",
+                    "answer": "I wanted to use a bleeding-edge web framework for a project, but our target demographic was in rural areas with older devices and slow internet. I pivoted to using plain HTML/CSS and vanilla JS to ensure the page loaded instantly for them, prioritizing access over my developer experience."
+                },
+                {
+                    "id": "AMZ_HR_001",
+                    "category": "HR",
+                    "sub_category": "Bias for Action",
+                    "question": "Describe a situation where you made a fast decision without consulting a manager.",
+                    "answer": "Our application's primary API went down due to a rate limit issue, causing errors for active users. My manager was unreachable, so I immediately implemented a fallback mechanism using cached data from the previous hour. It restored functionality instantly while we waited for the API limit to reset."
+                }
+            ]
+        },
+        {
+            "company": "Deloitte",
+            "batch": 4,
+            "questions": [
+                {
+                    "id": "DEL_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between an Inner Join and a Left Join?",
+                    "answer": "An Inner Join returns only the rows that have matching values in both tables. A Left Join returns all rows from the left table, along with matched rows from the right table; if there is no match, the result will contain NULL values for the right table's columns."
+                },
+                {
+                    "id": "DEL_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Software Engineering",
+                    "question": "What is the Software Development Life Cycle (SDLC)?",
+                    "answer": "SDLC is a structured process used to design, develop, and test high-quality software. Its primary phases are Requirement Analysis, Planning, Architectural Design, Software Development (Coding), Testing, and Deployment/Maintenance."
+                },
+                {
+                    "id": "DEL_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Programming Concepts",
+                    "question": "What are design patterns, and why are they used?",
+                    "answer": "Design patterns are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code, promoting reusability, modularity, and best practices."
+                },
+                {
+                    "id": "DEL_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Client Interaction",
+                    "question": "How do you handle a client who insists on a feature that you know is technically unfeasible?",
+                    "answer": "I never give a flat 'no'. Instead, I validate their underlying business goal for the feature. Then, I explain the technical constraints clearly and propose two alternative solutions that achieve the same business goal within our technical capabilities."
+                },
+                {
+                    "id": "DEL_HR_001",
+                    "category": "HR",
+                    "sub_category": "Consulting Mindset",
+                    "question": "Deloitte bridges business and technology. Why does consulting appeal to you?",
+                    "answer": "I enjoy programming, but I am equally passionate about how software drives business value. Consulting allows me to be client-facing, translating complex technical architectures into tangible business solutions, ensuring the code I write actually solves a real-world problem."
+                }
+            ]
+        },
+        {
+            "company": "LTIMindtree",
+            "batch": 5,
+            "questions": [
+                {
+                    "id": "LTI_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the difference between '==' and '.equals()' in Java?",
+                    "answer": "The '==' operator compares the reference or memory location of two objects, checking if they point to the exact same instance. The '.equals()' method evaluates the actual content or state of the objects to see if they are logically equivalent."
+                },
+                {
+                    "id": "LTI_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Web Technology",
+                    "question": "What is an API, and what is the role of JSON in it?",
+                    "answer": "An API (Application Programming Interface) allows two distinct software systems to communicate and share data. JSON (JavaScript Object Notation) is the lightweight, human-readable text format used to structure the data being sent back and forth between those systems."
+                },
+                {
+                    "id": "LTI_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What are aggregate functions in SQL?",
+                    "answer": "Aggregate functions perform a calculation on a set of values and return a single scalar value. Common examples include SUM() to calculate totals, COUNT() to find the number of rows, AVG() for averages, and MIN()/MAX() for lowest and highest values."
+                },
+                {
+                    "id": "LTI_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Accountability",
+                    "question": "What do you do if you realize you've made a critical error in a deployed project?",
+                    "answer": "I immediately notify my lead and provide a summary of the error, its potential impact, and a rollback or hotfix plan. Taking instant ownership prevents the issue from compounding, and documenting it post-mortem ensures it won't happen again."
+                },
+                {
+                    "id": "LTI_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Fit",
+                    "question": "Why LTIMindtree?",
+                    "answer": "The merger of L&T Infotech and Mindtree created a massive powerhouse in digital engineering. I want to start my career in an environment scaling its global reach, allowing me to work on diverse projects across various industries while benefiting from their robust fresher training programs."
+                }
+            ]
+        },
+        {
+            "company": "DXC Technology",
+            "batch": 5,
+            "questions": [
+                {
+                    "id": "DXC_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is a Kernel?",
+                    "answer": "The Kernel is the core component of an Operating System. It has complete control over everything in the system, managing hardware resources like CPU and memory, and acting as a bridge between the software applications and the physical hardware via system calls."
+                },
+                {
+                    "id": "DXC_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "What is Abstraction, and how is it implemented?",
+                    "answer": "Abstraction is the process of hiding internal implementation details and showing only the essential functionality to the user. In languages like Java or C++, it is implemented using abstract classes or interfaces."
+                },
+                {
+                    "id": "DXC_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the function of a DNS server?",
+                    "answer": "A Domain Name System (DNS) server acts like the phonebook of the internet. It translates human-readable domain names (like www.google.com) into the machine-readable IP addresses (like 192.168.1.1) needed by computers to identify each other on the network."
+                },
+                {
+                    "id": "DXC_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Prioritization",
+                    "question": "If you are working on two projects and both have a deadline tomorrow, how do you manage?",
+                    "answer": "I assess the dependencies and the business impact of both. If I genuinely cannot complete both to standard, I immediately communicate with my managers to negotiate a short extension on the lower-priority project while ensuring the high-priority project is delivered flawlessly."
+                },
+                {
+                    "id": "DXC_HR_001",
+                    "category": "HR",
+                    "sub_category": "Career Aspirations",
+                    "question": "Where do you see yourself in 3 years at DXC?",
+                    "answer": "In three years, I aim to transition from a junior developer to a core contributor who can independently design and execute complex modules. I also hope to mentor incoming freshers, passing on the training I receive during my initial years."
+                }
+            ]
+        },
+        {
+            "company": "NTT Data",
+            "batch": 5,
+            "questions": [
+                {
+                    "id": "NTT_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C++",
+                    "question": "What are constructors and destructors in C++?",
+                    "answer": "A constructor is a special member function automatically called when an object is created, used to initialize object properties. A destructor is called when an object is destroyed or goes out of scope, used to release dynamically allocated memory and free resources."
+                },
+                {
+                    "id": "NTT_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between a Subquery and a Correlated Subquery?",
+                    "answer": "A standard subquery executes once and passes its result to the outer query. A Correlated Subquery depends on the outer query for its values and must execute repeatedly, once for every row processed by the outer query, making it resource-intensive."
+                },
+                {
+                    "id": "NTT_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Software Engineering",
+                    "question": "What is Unit Testing?",
+                    "answer": "Unit Testing is a software testing method where individual components or functions of a program are tested in isolation. The purpose is to validate that each 'unit' of the software code performs strictly as designed before integrating it with other components."
+                },
+                {
+                    "id": "NTT_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Continuous Improvement",
+                    "question": "Describe a time you automated a repetitive task.",
+                    "answer": "During my final year project, testing our application required manually clearing the database and inserting dummy data every time. I wrote a simple Python script to truncate the tables and populate 100 lines of mock data with a single command, saving us hours of manual entry over the semester."
+                },
+                {
+                    "id": "NTT_HR_001",
+                    "category": "HR",
+                    "sub_category": "Relocation & Travel",
+                    "question": "Are you comfortable with extensive travel or relocation, which is common in consulting roles?",
+                    "answer": "Yes, I am completely open to relocation and travel. Being exposed to different client sites and diverse working environments is exactly the kind of dynamic start I am looking for in my career."
+                }
+            ]
+        },
+        {
+            "company": "Amdocs",
+            "batch": 5,
+            "questions": [
+                {
+                    "id": "AMD_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Linux",
+                    "question": "How do you change file permissions in Linux?",
+                    "answer": "You use the 'chmod' command. Permissions are divided into read (4), write (2), and execute (1) for the user, group, and others. For example, 'chmod 755 filename' gives read, write, and execute permissions to the user, and read and execute permissions to the group and others."
+                },
+                {
+                    "id": "AMD_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What are Database Triggers?",
+                    "answer": "A Trigger is a special type of stored procedure that automatically executes or fires when a specific event occurs in the database server. They are commonly tied to INSERT, UPDATE, or DELETE operations to enforce business rules or log history."
+                },
+                {
+                    "id": "AMD_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "C++",
+                    "question": "What is the concept of a Virtual Function in C++?",
+                    "answer": "A virtual function is a member function in a base class declared with the 'virtual' keyword. It ensures that the correct overridden function in a derived class is called at runtime, even if the object is accessed via a base class pointer (enabling runtime polymorphism)."
+                },
+                {
+                    "id": "AMD_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Handling Pressure",
+                    "question": "How do you perform during a major production outage?",
+                    "answer": "I remain calm and stick to the protocol. I isolate my assigned diagnostic task, communicate my findings strictly through our ticketing system to avoid noise, and avoid jumping to conclusions without log-based evidence."
+                },
+                {
+                    "id": "AMD_HR_001",
+                    "category": "HR",
+                    "sub_category": "Industry Focus",
+                    "question": "Amdocs is a leader in telecommunications software. Why does this industry interest you?",
+                    "answer": "Telecom networks handle massive, continuous data streams with zero tolerance for downtime. The engineering challenge of writing optimized, concurrent software that keeps millions of people connected is incredibly appealing to me."
+                }
+            ]
+        },
+        {
+            "company": "Samsung",
+            "batch": 6,
+            "questions": [
+                {
+                    "id": "SAM_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What is a 'volatile' keyword in C, and when do you use it?",
+                    "answer": "The 'volatile' keyword tells the compiler that a variable's value can change unexpectedly at any time, beyond the control of the program (e.g., modified by hardware or an interrupt). This prevents the compiler from applying optimization that might cache the variable's value in a register, forcing it to read from memory every time."
+                },
+                {
+                    "id": "SAM_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is the difference between Preemptive and Non-Preemptive scheduling?",
+                    "answer": "In Preemptive scheduling, the OS can pause a running process to allocate the CPU to another, higher-priority process. In Non-Preemptive scheduling, once a process enters the running state, it cannot be interrupted until it completes or voluntarily yields the CPU."
+                },
+                {
+                    "id": "SAM_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "Explain the concept of Hashing and collision resolution.",
+                    "answer": "Hashing converts a large key into a smaller integer (hash index) to store data in an array for O(1) retrieval. A collision occurs when two keys map to the same index. It is resolved using techniques like Chaining (linked lists at the index) or Open Addressing (finding the next empty slot using probing)."
+                },
+                {
+                    "id": "SAM_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Product Innovation",
+                    "question": "How do you approach designing a feature for a consumer electronics product?",
+                    "answer": "I focus on the intersection of hardware constraints and user experience. I ensure the software is highly optimized to preserve battery life and memory, while keeping the user interface intuitive, minimizing the steps required to achieve a task."
+                },
+                {
+                    "id": "SAM_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Alignment",
+                    "question": "Why do you want to work at Samsung Research & Development?",
+                    "answer": "Samsung sits at the unique intersection of cutting-edge hardware and massive consumer software ecosystems. Working here offers the rare opportunity to write code that directly impacts millions of physical mobile devices globally, which aligns perfectly with my engineering interests."
+                }
+            ]
+        },
+        {
+            "company": "Intel",
+            "batch": 6,
+            "questions": [
+                {
+                    "id": "INT_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Computer Architecture",
+                    "question": "Explain the Memory Hierarchy and the role of Cache memory.",
+                    "answer": "Memory hierarchy categorizes storage based on speed and cost: Registers (fastest, smallest), Cache, Main Memory (RAM), and Secondary Storage (Disk). Cache memory acts as a high-speed buffer between the CPU and RAM, storing frequently accessed data to reduce execution latency."
+                },
+                {
+                    "id": "INT_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What is a Memory Leak in C, and how do you detect it?",
+                    "answer": "A memory leak occurs when dynamically allocated memory (using malloc or calloc) is no longer needed but is not released back to the system using free(). Over time, this consumes all available memory. It can be detected using profiling tools like Valgrind."
+                },
+                {
+                    "id": "INT_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Digital Logic",
+                    "question": "What is the difference between Combinational and Sequential circuits?",
+                    "answer": "Combinational circuits compute their output strictly based on the current input (e.g., adders, multiplexers) and have no memory. Sequential circuits use the current input along with past states (memory) to determine the output, utilizing elements like flip-flops or registers."
+                },
+                {
+                    "id": "INT_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Complex Problem Solving",
+                    "question": "Describe your approach to debugging a deeply embedded hardware-software issue.",
+                    "answer": "I utilize a divide-and-conquer methodology. First, I isolate whether the issue is hardware-related (using oscilloscopes or logic analyzers) or software-related (using debuggers). Once isolated, I write minimal reproducible test code to trigger the bug predictably."
+                },
+                {
+                    "id": "INT_HR_001",
+                    "category": "HR",
+                    "sub_category": "Career Motivation",
+                    "question": "Why Intel?",
+                    "answer": "Intel is the backbone of modern computing. As an engineer, the opportunity to work close to the metal, optimizing systems at the processor level, is incredibly compelling. I want to build foundational technologies that power other technologies."
+                }
+            ]
+        },
+        {
+            "company": "Qualcomm",
+            "batch": 6,
+            "questions": [
+                {
+                    "id": "QCOM_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What are function pointers, and where are they used?",
+                    "answer": "A function pointer stores the memory address of a function rather than a data value. They are heavily used in C for callback mechanisms, implementing state machines, and allowing dynamic function execution during runtime."
+                },
+                {
+                    "id": "QCOM_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is an Interrupt Service Routine (ISR)?",
+                    "answer": "An ISR is a specialized block of code executed by the OS in response to a hardware or software interrupt. It pauses the current process, handles the urgent event (like a keystroke or network packet arrival), and then returns control to the interrupted process."
+                },
+                {
+                    "id": "QCOM_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the difference between a MAC address and an IP address?",
+                    "answer": "A MAC address is a physical, hardcoded hardware address assigned to a network interface card (NIC) operating at Layer 2. An IP address is a logical address assigned dynamically by the network operating at Layer 3 to identify the device's location on the internet."
+                },
+                {
+                    "id": "QCOM_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Team Collaboration",
+                    "question": "How do you ensure tight collaboration between hardware and software engineering teams?",
+                    "answer": "I advocate for shared specifications and early cross-team design reviews. Using simulation tools allows the software team to begin writing and testing drivers before the physical hardware is finalized, preventing late-stage integration bottlenecks."
+                },
+                {
+                    "id": "QCOM_HR_001",
+                    "category": "HR",
+                    "sub_category": "Industry Knowledge",
+                    "question": "Why are you interested in the wireless communications sector?",
+                    "answer": "Wireless technology is the invisible thread connecting global infrastructure. Working at Qualcomm allows me to be at the forefront of 5G and IoT expansion, solving complex low-latency and high-bandwidth challenges that define the next generation of connectivity."
+                }
+            ]
+        },
+        {
+            "company": "Adobe",
+            "batch": 6,
+            "questions": [
+                {
+                    "id": "ADOBE_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C++",
+                    "question": "Why do we need a virtual destructor in C++?",
+                    "answer": "A virtual destructor ensures that when a derived class object is deleted using a base class pointer, both the derived class's destructor and the base class's destructor are called properly. Without it, only the base class destructor executes, causing a severe memory leak."
+                },
+                {
+                    "id": "ADOBE_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "How do you find the lowest common ancestor (LCA) in a Binary Tree?",
+                    "answer": "Traverse the tree starting from the root. If the current node is equal to either target node, return it. Recursively find the LCA in the left and right subtrees. If a node has one target in its left subtree and the other in its right, that node is the LCA."
+                },
+                {
+                    "id": "ADOBE_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "What is the difference between BFS and DFS?",
+                    "answer": "Breadth-First Search (BFS) explores graphs level by level using a Queue, making it ideal for finding the shortest path. Depth-First Search (DFS) explores as far down a branch as possible before backtracking using a Stack (or recursion), useful for topological sorting or cycle detection."
+                },
+                {
+                    "id": "ADOBE_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Quality and Testing",
+                    "question": "How do you ensure high performance in a graphics-heavy software application?",
+                    "answer": "I focus heavily on memory management and avoiding redundant calculations. I implement object pooling to prevent constant memory allocation overhead and use asynchronous processing so the main UI thread remains completely responsive to the user."
+                },
+                {
+                    "id": "ADOBE_HR_001",
+                    "category": "HR",
+                    "sub_category": "Creativity and Tech",
+                    "question": "Why Adobe?",
+                    "answer": "Adobe builds tools that empower digital creativity globally. I am drawn to the engineering complexity behind rendering, compression, and UI performance, and I want to contribute to software that directly enables creators and professionals."
+                }
+            ]
+        },
+        {
+            "company": "Hexaware",
+            "batch": 7,
+            "questions": [
+                {
+                    "id": "HEX_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between a clustered and non-clustered index?",
+                    "answer": "A clustered index defines the physical sorting order of data in a table, so there can only be one per table (usually the primary key). A non-clustered index creates a separate logical map pointing to the physical data, meaning a table can have multiple non-clustered indexes."
+                },
+                {
+                    "id": "HEX_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the difference between HashMap and HashTable?",
+                    "answer": "HashTable is legacy, synchronized (thread-safe), and does not allow any null keys or values. HashMap is not synchronized (better performance in single-threaded environments), and it allows one null key and multiple null values."
+                },
+                {
+                    "id": "HEX_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Software Engineering",
+                    "question": "What are the core principles of the Agile methodology?",
+                    "answer": "Agile prioritizes individuals and interactions over processes, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a rigid plan."
+                },
+                {
+                    "id": "HEX_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Client Delivery",
+                    "question": "How do you manage client expectations when a feature delivery is delayed?",
+                    "answer": "Transparency is key. I proactively inform the client the moment a delay is apparent, explain the technical blocker without jargon, and provide a revised timeline along with any temporary workarounds available."
+                },
+                {
+                    "id": "HEX_HR_001",
+                    "category": "HR",
+                    "sub_category": "Automation Focus",
+                    "question": "Hexaware focuses heavily on 'Automate Everything'. What is your view on automation?",
+                    "answer": "Automation is essential for scaling. I believe any task that requires manual repetition more than three times should be scripted. It removes human error, speeds up deployment pipelines, and frees engineers to focus on complex logic."
+                }
+            ]
+        },
+        {
+            "company": "Mphasis",
+            "batch": 7,
+            "questions": [
+                {
+                    "id": "MPH_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "Explain 'Polymorphism' with a real-world example.",
+                    "answer": "Polymorphism means 'many forms'. A real-world example is a smartphone. You can use it as a phone, a camera, or a GPS. In coding, a single method name like 'calculateArea()' can behave differently depending on whether it is invoked on a 'Circle' object or a 'Rectangle' object."
+                },
+                {
+                    "id": "MPH_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Web Technology",
+                    "question": "What is the DOM (Document Object Model)?",
+                    "answer": "The DOM is a programming interface for web documents. It represents the HTML page as a tree structure where each node is an object representing a part of the document. JavaScript uses the DOM to dynamically read, manipulate, and update the page content and structure."
+                },
+                {
+                    "id": "MPH_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Cloud Computing",
+                    "question": "What is Serverless Computing?",
+                    "answer": "Serverless computing is a cloud model where the provider dynamically manages the allocation of machine resources. Developers write code as individual functions (like AWS Lambda) that execute triggered by events, and they are billed only for the exact compute time used, without maintaining any servers."
+                },
+                {
+                    "id": "MPH_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Adaptability",
+                    "question": "Describe a time you transitioned between vastly different tech stacks.",
+                    "answer": "During a college internship, I was moved from a Java backend team to a React frontend team. I dedicated my evenings to mastering component lifecycle and state management, mapping the new concepts to the MVC architecture I already knew, allowing me to contribute within a week."
+                },
+                {
+                    "id": "MPH_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Alignment",
+                    "question": "Why do you want to join Mphasis?",
+                    "answer": "Mphasis has a strong footprint in applying Next-Gen technologies to the financial and banking sectors. I am highly interested in fintech, and starting my career here offers a robust platform to learn secure, enterprise-level application architecture."
+                }
+            ]
+        },
+        {
+            "company": "Genpact",
+            "batch": 7,
+            "questions": [
+                {
+                    "id": "GEN_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "SQL",
+                    "question": "What is a Self-Join?",
+                    "answer": "A Self-Join is a regular join but the table is joined with itself. This is particularly useful when the data you want to compare is within the same table, such as an Employee table containing an 'EmployeeID' and a 'ManagerID', where the manager is also an employee."
+                },
+                {
+                    "id": "GEN_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Data Analysis",
+                    "question": "What is the difference between Data Mining and Data Profiling?",
+                    "answer": "Data Profiling involves examining existing data sets to understand their structure, quality, and accuracy (e.g., finding null values or anomalies). Data Mining is the process of analyzing large datasets to discover hidden patterns, correlations, and trends for predictive forecasting."
+                },
+                {
+                    "id": "GEN_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Python",
+                    "question": "What is the difference between a list and a tuple in Python?",
+                    "answer": "Lists are mutable, meaning they can be modified, appended, or sorted after creation, and use square brackets []. Tuples are immutable, meaning they cannot be changed once created, making them faster and memory-efficient, and use parentheses ()."
+                },
+                {
+                    "id": "GEN_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Process Optimization",
+                    "question": "Give an example of a process you streamlined to save time.",
+                    "answer": "For my college tech fest, registrations were handled manually via spreadsheets. I built a quick web form linked to a central database that automatically sorted participants by event and emailed them their schedules, completely eliminating data-entry bottlenecks."
+                },
+                {
+                    "id": "GEN_HR_001",
+                    "category": "HR",
+                    "sub_category": "Transformation Focus",
+                    "question": "Genpact focuses on digital transformation. What does digital transformation mean to you?",
+                    "answer": "It means fundamentally changing how a business operates by integrating technology into all areas. It isn't just about moving from paper to digital; it's about leveraging data, AI, and cloud infrastructure to create entirely new, efficient business models and user experiences."
+                }
+            ]
+        },
+        {
+            "company": "Zensar",
+            "batch": 7,
+            "questions": [
+                {
+                    "id": "ZEN_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "What is the difference between throw and throws in Java?",
+                    "answer": "'throw' is a keyword used explicitly inside a method body to throw a single exception instance (e.g., throw new Exception()). 'throws' is used in the method signature to declare that the method might throw one or multiple exceptions, leaving the handling to the caller."
+                },
+                {
+                    "id": "ZEN_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Testing",
+                    "question": "What is the difference between Black-box testing and White-box testing?",
+                    "answer": "Black-box testing focuses on validating the input/output and functional requirements without knowing the internal code structure. White-box testing evaluates the internal logic, paths, and code architecture, requiring full knowledge of the programming and implementation."
+                },
+                {
+                    "id": "ZEN_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the difference between HTTP and HTTPS?",
+                    "answer": "HTTP transmits data as plain text, making it vulnerable to interception. HTTPS secures the communication using SSL/TLS encryption protocols, ensuring that the data transferred between the browser and server remains private and untampered."
+                },
+                {
+                    "id": "ZEN_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Continuous Learning",
+                    "question": "How do you quickly learn a codebase you have never seen before?",
+                    "answer": "I don't read it line by line. I trace the execution path starting from the main entry point or a specific API route. I map out the database schema, read the unit tests to understand expected behavior, and set breakpoints in a debugger to watch the data flow dynamically."
+                },
+                {
+                    "id": "ZEN_HR_001",
+                    "category": "HR",
+                    "sub_category": "Work Ethic",
+                    "question": "Why Zensar?",
+                    "answer": "Zensar has a proven track record of nurturing young talent while delivering impactful digital solutions globally. I am looking for a collaborative environment where I can rapidly deploy my programming skills into enterprise applications and learn from experienced mentors."
+                }
+            ]
+        },
+        {
+            "company": "SAP",
+            "batch": 8,
+            "questions": [
+                {
+                    "id": "SAP_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Enterprise Systems",
+                    "question": "What is ERP (Enterprise Resource Planning)?",
+                    "answer": "ERP is a type of integrated software suite that organizations use to manage and automate core business processes, such as finance, HR, manufacturing, and supply chain, centralizing all data into a single source of truth."
+                },
+                {
+                    "id": "SAP_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What are ACID properties, and why are they critical in financial databases?",
+                    "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability. In financial systems, ACID ensures that transactions like transferring money are processed reliably—if any part of the transaction fails, the entire transaction rolls back to prevent lost funds or corrupt data."
+                },
+                {
+                    "id": "SAP_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "What is Encapsulation?",
+                    "answer": "Encapsulation is the mechanism of bundling data (variables) and the methods that operate on that data into a single unit (class), while restricting direct external access to some of the object's components. It is achieved using private access modifiers and getter/setter methods."
+                },
+                {
+                    "id": "SAP_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Business Acumen",
+                    "question": "Why is it important for a software engineer to understand business processes?",
+                    "answer": "Software is merely a tool to solve business problems. If an engineer doesn't understand the 'why' behind a business process, they will build technically sound features that fail to deliver actual value to the end user."
+                },
+                {
+                    "id": "SAP_HR_001",
+                    "category": "HR",
+                    "sub_category": "Global Scale",
+                    "question": "Why do you want to work at SAP?",
+                    "answer": "SAP software touches the majority of the world's financial transactions. The sheer scale and criticality of SAP's enterprise systems mean that the code I write will have a massive global impact, driving efficiencies in major corporations worldwide."
+                }
+            ]
+        },
+        {
+            "company": "Salesforce",
+            "batch": 8,
+            "questions": [
+                {
+                    "id": "SF_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Cloud Computing",
+                    "question": "What is SaaS (Software as a Service)?",
+                    "answer": "SaaS is a cloud computing model where a provider hosts fully functional software applications and makes them available to customers over the internet, typically on a subscription basis, removing the need for local installation or maintenance (e.g., Salesforce CRM)."
+                },
+                {
+                    "id": "SF_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Web Technology",
+                    "question": "What is a RESTful API?",
+                    "answer": "REST (Representational State Transfer) is an architectural style for APIs. A RESTful API uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources (represented by URIs) statelessly, usually exchanging data in JSON format."
+                },
+                {
+                    "id": "SF_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Database Architecture",
+                    "question": "What is a Multi-Tenant Architecture?",
+                    "answer": "Multi-tenant architecture is a software configuration where a single instance of an application and its underlying database serves multiple customers (tenants). Data isolation is strictly maintained logically, making it highly resource-efficient and easy to update."
+                },
+                {
+                    "id": "SF_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Customer Success",
+                    "question": "How do you ensure your code empowers the end customer?",
+                    "answer": "By prioritizing robust error handling and descriptive logging. If the system fails, the end-user should receive a clear, actionable message rather than a generic crash, minimizing their downtime and reducing support friction."
+                },
+                {
+                    "id": "SF_HR_001",
+                    "category": "HR",
+                    "sub_category": "Company Culture",
+                    "question": "Salesforce is built on 'Ohana' (family) culture. What does teamwork mean to you?",
+                    "answer": "Teamwork means absolute psychological safety. It means I can ask a 'stupid' question when I am stuck without fear of judgment, and it means I am equally responsible for reviewing and elevating my peers' code as I am for writing my own."
+                }
+            ]
+        },
+        {
+            "company": "VMware",
+            "batch": 8,
+            "questions": [
+                {
+                    "id": "VMW_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Virtualization",
+                    "question": "What is a Hypervisor?",
+                    "answer": "A Hypervisor (Virtual Machine Monitor) is software that creates and runs virtual machines. A Type 1 hypervisor runs directly on the host's hardware (bare-metal), while a Type 2 hypervisor runs as a software layer on top of a conventional operating system."
+                },
+                {
+                    "id": "VMW_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is a Page Fault?",
+                    "answer": "A Page Fault occurs when a running program accesses a memory page that is mapped into the virtual address space but is not currently loaded in physical memory (RAM). The OS must pause the process and load the required page from disk."
+                },
+                {
+                    "id": "VMW_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is a VLAN (Virtual Local Area Network)?",
+                    "answer": "A VLAN is a custom network created from one or more existing LANs. It enables devices on different physical LAN segments to communicate as if they were attached to the same wire, isolating broadcast traffic and improving security."
+                },
+                {
+                    "id": "VMW_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "System Architecture",
+                    "question": "How do you approach resource optimization in a large system?",
+                    "answer": "I baseline the current performance to identify the actual bottlenecks (CPU, Memory, or I/O). I then apply targeted fixes—like implementing caching for heavy I/O tasks or refactoring loops for CPU efficiency—and measure the exact delta to ensure I haven't introduced regressions."
+                },
+                {
+                    "id": "VMW_HR_001",
+                    "category": "HR",
+                    "sub_category": "Deep Tech Interest",
+                    "question": "Why VMware?",
+                    "answer": "VMware revolutionized infrastructure by decoupling software from physical hardware. I want to build foundational technology. Working on virtualization and cloud infrastructure allows me to solve complex, low-level OS and networking problems that standard web development rarely touches."
+                }
+            ]
+        },
+        {
+            "company": "Goldman Sachs",
+            "batch": 8,
+            "questions": [
+                {
+                    "id": "GS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "How do you detect a cycle in a Directed Graph?",
+                    "answer": "You can use Depth-First Search (DFS). While traversing the graph, keep track of nodes currently in the recursion stack. If you encounter a node during DFS that is already in the current recursion stack, a cycle exists."
+                },
+                {
+                    "id": "GS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "System Design",
+                    "question": "How would you design a rate limiter?",
+                    "answer": "I would use a Token Bucket or Leaky Bucket algorithm backed by Redis. For every incoming request, the system checks Redis to see if the user's IP has tokens remaining within the time window. If yes, it decrements the token and allows the request; if not, it drops the request."
+                },
+                {
+                    "id": "GS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "What is the Singleton Design Pattern, and how do you make it thread-safe in Java?",
+                    "answer": "The Singleton pattern ensures a class has only one instance globally. To make it thread-safe, you can use 'Double-Checked Locking' where you check if the instance is null, enter a synchronized block, and check for null again before creating the instance."
+                },
+                {
+                    "id": "GS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Risk Management",
+                    "question": "In financial tech, accuracy is critical. How do you prevent catastrophic bugs?",
+                    "answer": "Through relentless automated testing. I write extensive unit tests covering extreme edge cases, implement strict CI/CD pipelines that reject code if test coverage drops, and utilize code reviews focused specifically on integer overflows and concurrent race conditions."
+                },
+                {
+                    "id": "GS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Finance & Technology",
+                    "question": "Why Goldman Sachs Engineering?",
+                    "answer": "Goldman Sachs is a technology company operating in finance. The scale, microsecond latency requirements, and massive data volume in algorithmic trading present engineering challenges that demand peak performance and flawless system architecture, which is where I want to prove myself."
+                }
+            ]
+        },
+        {
+            "company": "TCS",
+            "batch": 9,
+            "questions": [
+                {
+                    "id": "TCS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is the difference between a Primary Key and a Unique Key?",
+                    "answer": "A Primary Key uniquely identifies a record and cannot accept NULL values. A table can only have one Primary Key. A Unique Key also ensures uniqueness but can accept a single NULL value, and a table can have multiple Unique Keys."
+                },
+                {
+                    "id": "TCS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "OOPs",
+                    "question": "Explain Method Overriding and its rules.",
+                    "answer": "Method Overriding is runtime polymorphism where a subclass provides a specific implementation of a method already defined in its parent class. The method must have the exact same name, return type, and parameters. Private, static, and final methods cannot be overridden."
+                },
+                {
+                    "id": "TCS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is a Deadlock and what are its four necessary conditions?",
+                    "answer": "A Deadlock is a state where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process. The four conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait."
+                },
+                {
+                    "id": "TCS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Project Management",
+                    "question": "Walk me through your final year academic project.",
+                    "answer": "I led the backend development using Node.js and MongoDB. I structured the database schema to handle high write-loads and implemented JWT authentication. My biggest challenge was integrating a third-party payment gateway, which I solved by referencing the official API documentation and writing thorough unit tests."
+                },
+                {
+                    "id": "TCS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Flexibility",
+                    "question": "Are you willing to relocate to any of our PAN-India branches?",
+                    "answer": "Yes, I am completely flexible regarding location. TCS has a massive global and national footprint, and I am excited about the opportunity to work in a new city and collaborate with diverse teams."
+                }
+            ]
+        },
+        {
+            "company": "JP Morgan Chase",
+            "batch": 9,
+            "questions": [
+                {
+                    "id": "JPMC_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "How does Multithreading work in Java, and what is synchronization?",
+                    "answer": "Multithreading allows concurrent execution of two or more parts of a program for maximum utilization of CPU. Synchronization controls the access of multiple threads to any shared resource, preventing race conditions and ensuring thread safety."
+                },
+                {
+                    "id": "JPMC_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "System Design",
+                    "question": "How would you design a system to process millions of transactions per day?",
+                    "answer": "I would use a distributed architecture based on microservices. I would decouple the transaction ingestion layer using a message broker like Apache Kafka for high-throughput streaming, and use a heavily indexed, horizontally scaled SQL database with strict ACID compliance for the final settlement."
+                },
+                {
+                    "id": "JPMC_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "Explain the time complexity of QuickSort in best, average, and worst cases.",
+                    "answer": "In the best and average cases, QuickSort has a time complexity of O(N log N) because the pivot divides the array into two nearly equal halves. The worst case is O(N^2), which happens when the array is already sorted or reverse sorted, and the pivot chosen is the greatest or smallest element."
+                },
+                {
+                    "id": "JPMC_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Risk Management",
+                    "question": "Tell me about a time you identified a major risk in a project. How did you handle it?",
+                    "answer": "I noticed our API was vulnerable to rate-limit exhaustion, which could lead to a denial-of-service state. I flagged it immediately in our sprint planning and spent the weekend implementing a Redis-based token bucket rate limiter before our production launch, averting the risk entirely."
+                },
+                {
+                    "id": "JPMC_HR_001",
+                    "category": "HR",
+                    "sub_category": "Industry Focus",
+                    "question": "Why JP Morgan Chase? What interests you about FinTech?",
+                    "answer": "JPMC handles the world's most critical financial data. The engineering rigor required to build low-latency, highly secure, and highly scalable trading and banking applications is exactly the kind of challenging environment I want to grow in as a software engineer."
+                }
+            ]
+        },
+        {
+            "company": "Morgan Stanley",
+            "batch": 9,
+            "questions": [
+                {
+                    "id": "MS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "How do you reverse a Linked List?",
+                    "answer": "Initialize three pointers: prev as NULL, curr as head, and next as NULL. Iterate through the list. In a loop, store the next node (next = curr->next), change the current node's pointer to the previous node (curr->next = prev), and move the prev and curr pointers one step forward."
+                },
+                {
+                    "id": "MS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Java",
+                    "question": "Explain the internal working of ConcurrentHashMap.",
+                    "answer": "Unlike a traditional HashTable that locks the entire map, ConcurrentHashMap divides the map into segments or buckets and only locks the specific bucket being updated. This allows multiple threads to read and write simultaneously in different segments, drastically improving concurrency performance."
+                },
+                {
+                    "id": "MS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "DBMS",
+                    "question": "What is Database Sharding?",
+                    "answer": "Sharding is a database architecture pattern related to horizontal partitioning. It separates a massive single database into multiple smaller, faster, and more easily managed parts called data shards, which can be hosted on different servers to distribute the read/write load."
+                },
+                {
+                    "id": "MS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Communication",
+                    "question": "How do you explain a highly technical delay to a non-technical business stakeholder?",
+                    "answer": "I avoid code-jargon entirely. I use analogies—like comparing a database migration to moving furniture between houses—to explain the blocker. Then, I pivot immediately to the business impact and the concrete timeline for resolution."
+                },
+                {
+                    "id": "MS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Core Values",
+                    "question": "Morgan Stanley values 'Doing the Right Thing'. Have you ever faced an ethical dilemma in a project?",
+                    "answer": "During a hackathon, a teammate suggested copying a significant portion of proprietary code from a closed-source repository to save time. I firmly declined, explaining the intellectual property risks, and instead guided the team to use a recognized open-source library that achieved a similar result legally."
+                }
+            ]
+        },
+        {
+            "company": "Barclays",
+            "batch": 9,
+            "questions": [
+                {
+                    "id": "BARC_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Web Technology",
+                    "question": "What is the difference between SOAP and REST Web Services?",
+                    "answer": "SOAP is a strict protocol that relies heavily on XML and is highly secure but slower and more complex. REST is an architectural style that is lightweight, stateless, uses multiple formats (primarily JSON), and relies on standard HTTP methods, making it much faster for modern web applications."
+                },
+                {
+                    "id": "BARC_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "DevOps",
+                    "question": "What is CI/CD?",
+                    "answer": "Continuous Integration (CI) is the practice of automatically merging code changes into a central repository and running automated tests. Continuous Delivery/Deployment (CD) automates the release of that validated code to staging or production environments, allowing for rapid, reliable software updates."
+                },
+                {
+                    "id": "BARC_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Security",
+                    "question": "What is SQL Injection, and how do you prevent it?",
+                    "answer": "SQL Injection is an attack where malicious SQL statements are inserted into entry fields for execution, potentially exposing or destroying data. It is prevented by using Prepared Statements (Parameterized Queries) and Stored Procedures, which strictly separate the SQL logic from the user-provided data."
+                },
+                {
+                    "id": "BARC_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Conflict Resolution",
+                    "question": "Tell me about a time you disagreed with your manager's technical approach.",
+                    "answer": "My manager wanted to use a NoSQL database for structured financial records. I respectfully disagreed during our 1-on-1, presenting a brief pros/cons matrix showing that ACID compliance in a SQL relational database was necessary for the data's integrity. Seeing the data, they agreed with my recommendation."
+                },
+                {
+                    "id": "BARC_HR_001",
+                    "category": "HR",
+                    "sub_category": "Career Aspirations",
+                    "question": "Why do you want to build a career at Barclays?",
+                    "answer": "Barclays has a massive heritage in banking, but it operates like a modern tech company, heavily investing in cloud and digital banking architecture. I want to contribute to systems that process millions of secure financial transactions daily, and Barclays is the perfect place to do that."
+                }
+            ]
+        },
+        {
+            "company": "Atos",
+            "batch": 10,
+            "questions": [
+                {
+                    "id": "ATOS_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Cloud Computing",
+                    "question": "What is the difference between Scalability and Elasticity in Cloud Computing?",
+                    "answer": "Scalability is the ability to handle increased workload by adding more resources (servers or processing power). Elasticity is the ability to automatically scale those resources up *and* down dynamically in response to real-time traffic spikes, ensuring you only pay for what you use."
+                },
+                {
+                    "id": "ATOS_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What happens at the Transport Layer of the OSI model?",
+                    "answer": "The Transport Layer ensures complete data transfer between applications. It takes data from the session layer, breaks it into smaller segments, multiplexes the data streams, and implements error checking and flow control using protocols like TCP or UDP."
+                },
+                {
+                    "id": "ATOS_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Linux",
+                    "question": "What is a Cron Job in Linux?",
+                    "answer": "A Cron Job is a time-based job scheduler in Unix-like operating systems. It allows users to schedule scripts or commands to run automatically at specified intervals, times, or dates, which is essential for automated backups and system maintenance."
+                },
+                {
+                    "id": "ATOS_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Agile Delivery",
+                    "question": "How do you handle scope creep during a sprint?",
+                    "answer": "If new requirements are introduced mid-sprint, I evaluate their urgency. If they are not critical bug fixes, I work with the Scrum Master and Product Owner to add them to the product backlog for the *next* sprint, protecting the current sprint's goals and velocity."
+                },
+                {
+                    "id": "ATOS_HR_001",
+                    "category": "HR",
+                    "sub_category": "Digital Transformation",
+                    "question": "Atos leads in digital workplace solutions. How do you adapt to remote/hybrid working environments?",
+                    "answer": "I thrive in hybrid environments by over-communicating. I maintain strict documentation for my code, ensure my status on team channels is accurate, and never hesitate to jump on a quick 5-minute video call to resolve a complex issue rather than sending endless emails."
+                }
+            ]
+        },
+        {
+            "company": "Ericsson",
+            "batch": 10,
+            "questions": [
+                {
+                    "id": "ERIC_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the difference between IPv4 and IPv6?",
+                    "answer": "IPv4 uses a 32-bit address format allowing for roughly 4.3 billion unique IP addresses. IPv6 was introduced to solve address exhaustion; it uses a 128-bit hexadecimal address format, providing a virtually limitless number of unique IP addresses, along with built-in security features (IPsec)."
+                },
+                {
+                    "id": "ERIC_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What is a Segmentation Fault in C?",
+                    "answer": "A Segmentation Fault occurs when a program attempts to access a memory location that it is not allowed to access, or attempts to access a memory location in a way that is not allowed (e.g., trying to write to a read-only segment or dereferencing a NULL or uninitialized pointer)."
+                },
+                {
+                    "id": "ERIC_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Telecom Systems",
+                    "question": "Explain the concept of Network Slicing in 5G.",
+                    "answer": "Network Slicing allows multiple virtual networks to be created on top of a common shared physical infrastructure. Each 'slice' can be optimized for specific requirements—like low latency for autonomous vehicles, or high bandwidth for video streaming—ensuring quality of service for different use cases."
+                },
+                {
+                    "id": "ERIC_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Global Teaming",
+                    "question": "How do you approach working with an engineering team distributed across different time zones?",
+                    "answer": "I rely on asynchronous communication. I ensure hand-offs are perfectly documented with clear action items and updated code repositories at the end of my day, so the next time zone team can pick up exactly where I left off without needing a synchronous meeting."
+                },
+                {
+                    "id": "ERIC_HR_001",
+                    "category": "HR",
+                    "sub_category": "Telecom Interest",
+                    "question": "Why Ericsson?",
+                    "answer": "Ericsson builds the infrastructure that makes the connected world possible. The prospect of writing low-level, highly optimized C and C++ code that will literally run inside 5G base stations handling massive global data traffic is the perfect technical challenge for me."
+                }
+            ]
+        },
+        {
+            "company": "Nokia",
+            "batch": 10,
+            "questions": [
+                {
+                    "id": "NOK_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Networking",
+                    "question": "What is the BGP (Border Gateway Protocol)?",
+                    "answer": "BGP is the routing protocol that makes the internet work. It manages how packets are routed across the internet through the exchange of routing and reachability information between edge routers belonging to different autonomous systems."
+                },
+                {
+                    "id": "NOK_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Python",
+                    "question": "What is a Dictionary in Python, and how is it implemented?",
+                    "answer": "A Dictionary is a mutable, unordered collection of key-value pairs. Keys must be unique and immutable. Internally, Python implements dictionaries using Hash Tables, which provide incredibly fast O(1) average time complexity for lookups, insertions, and deletions."
+                },
+                {
+                    "id": "NOK_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Software Engineering",
+                    "question": "What is the difference between a Microservices architecture and a Monolithic architecture?",
+                    "answer": "A Monolithic architecture combines all application components into a single, large executable, making it simple to deploy but hard to scale and maintain. Microservices separate the application into small, independent, loosely coupled services communicating via APIs, making it easier to scale and update specific parts without affecting the whole system."
+                },
+                {
+                    "id": "NOK_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Resilience",
+                    "question": "Describe a time you failed to meet a project deadline.",
+                    "answer": "In my junior year, I underestimated the time required to integrate a specific library and missed a soft deadline. I owned the mistake immediately, analyzed my miscalculation, and adopted a stricter agile methodology for tracking micro-tasks, ensuring I haven't missed a deadline since."
+                },
+                {
+                    "id": "NOK_HR_001",
+                    "category": "HR",
+                    "sub_category": "Innovation Focus",
+                    "question": "Nokia is a pioneer in networking. What role do you think software plays in modern telecommunications?",
+                    "answer": "Telecommunications is no longer just about hardware towers and cables; it's entirely software-defined now. SDN (Software-Defined Networking) and NFV (Network Functions Virtualization) are the future, and I want to be at Nokia to write the code that virtualizes and optimizes those massive network structures."
+                }
+            ]
+        },
+        {
+            "company": "Siemens",
+            "batch": 10,
+            "questions": [
+                {
+                    "id": "SIEM_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Embedded Systems",
+                    "question": "What is a Microcontroller vs a Microprocessor?",
+                    "answer": "A Microprocessor only contains a CPU and requires external memory (RAM/ROM) and I/O peripherals, making it powerful but complex (used in PCs). A Microcontroller contains a CPU, memory, and I/O ports all on a single integrated chip, designed specifically to perform dedicated tasks in embedded systems."
+                },
+                {
+                    "id": "SIEM_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "C++",
+                    "question": "What is the difference between malloc() and new?",
+                    "answer": "'malloc()' is a standard C library function that allocates memory on the heap and returns a void pointer, requiring manual type casting, and it does not call constructors. 'new' is a C++ operator that allocates memory, returns the exact data type pointer, and automatically invokes the object's constructor."
+                },
+                {
+                    "id": "SIEM_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "IoT",
+                    "question": "What is the MQTT protocol in IoT?",
+                    "answer": "MQTT (Message Queuing Telemetry Transport) is a lightweight, publish-subscribe network protocol designed to transport messages between devices in situations where network bandwidth is limited or devices have severe resource constraints, making it the standard for IoT device communication."
+                },
+                {
+                    "id": "SIEM_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Safety & Compliance",
+                    "question": "In industrial automation, bugs can cause physical damage. How do you ensure your code is completely safe?",
+                    "answer": "I operate with a paranoid testing mindset. I don't just test the 'happy paths' where inputs are correct. I aggressively test edge cases, out-of-bounds inputs, and hardware failure simulations, ensuring the software always defaults to a fail-safe state to protect physical machinery."
+                },
+                {
+                    "id": "SIEM_HR_001",
+                    "category": "HR",
+                    "sub_category": "Industrial Tech",
+                    "question": "Why Siemens?",
+                    "answer": "Siemens operates at the intersection of the physical and digital worlds. I am fascinated by industrial automation and smart infrastructure. Working here means my code won't just sit on a server—it will control trains, factories, and power grids, which is immensely fulfilling."
+                }
+            ]
+        },
+        {
+            "company": "Bosch",
+            "batch": 11,
+            "questions": [
+                {
+                    "id": "BOSCH_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "Automotive Protocols",
+                    "question": "Explain the basics of the CAN (Controller Area Network) bus protocol.",
+                    "answer": "CAN is a robust vehicle bus standard designed to allow microcontrollers and devices (like the engine control unit and airbags) to communicate with each other's applications without a host computer. It uses a message-based protocol and broadcast messaging, prioritizing critical safety messages automatically."
+                },
+                {
+                    "id": "BOSCH_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Operating Systems",
+                    "question": "What is an RTOS (Real-Time Operating System)?",
+                    "answer": "An RTOS is an operating system designed specifically to process data as it comes in, typically without buffering delays. In embedded automotive systems, an RTOS guarantees that a task (like deploying an airbag) is executed within a strict, deterministic time constraint."
+                },
+                {
+                    "id": "BOSCH_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "C Programming",
+                    "question": "What are Bit Fields in C?",
+                    "answer": "Bit Fields allow the declaration of structure members with explicitly specified sizes in bits. This is heavily used in embedded systems to map exact hardware registers or pack data tightly into memory, saving space where memory constraints are extreme."
+                },
+                {
+                    "id": "BOSCH_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Cross-Functional Collaboration",
+                    "question": "How do you coordinate with mechanical engineers when developing embedded software?",
+                    "answer": "I focus on defining strict interface boundaries early. I work with mechanical engineers to map out exactly what sensors and actuators will be used, their voltage tolerances, and data frequencies, ensuring my software driver layers match the physical hardware reality precisely."
+                },
+                {
+                    "id": "BOSCH_HR_001",
+                    "category": "HR",
+                    "sub_category": "Mobility Solutions",
+                    "question": "Bosch is synonymous with automotive technology. Why does this sector excite you?",
+                    "answer": "The automotive industry is undergoing the biggest software revolution in its history with EVs and autonomous driving. I want to work at Bosch because I want to be part of engineering the safety-critical software that defines the future of mobility."
+                }
+            ]
+        },
+        {
+            "company": "Sony",
+            "batch": 11,
+            "questions": [
+                {
+                    "id": "SONY_TECH_001",
+                    "category": "Technical",
+                    "sub_category": "C++ / Game Dev",
+                    "question": "What are Smart Pointers in C++ and why are they used?",
+                    "answer": "Smart Pointers (like std::unique_ptr, std::shared_ptr) are wrapper classes over raw pointers. They automatically manage memory by deallocating the memory when the pointer goes out of scope, heavily reducing memory leaks and dangling pointers in high-performance applications like game engines."
+                },
+                {
+                    "id": "SONY_TECH_002",
+                    "category": "Technical",
+                    "sub_category": "Algorithms",
+                    "question": "What is A* (A-Star) Algorithm?",
+                    "answer": "A* is a graph traversal and pathfinding algorithm widely used in game development. It is highly efficient because it uses heuristics (estimating the cost from the current node to the goal) to guide the search, finding the shortest path while exploring the minimum number of nodes possible."
+                },
+                {
+                    "id": "SONY_TECH_003",
+                    "category": "Technical",
+                    "sub_category": "Data Structures",
+                    "question": "What is a Min-Heap?",
+                    "answer": "A Min-Heap is a complete binary tree where the value of each parent node is strictly less than or equal to the values of its children. This makes the root node the minimum element, offering highly efficient O(1) access to the smallest element, which is useful for priority queues."
+                },
+                {
+                    "id": "SONY_MAN_001",
+                    "category": "Managerial",
+                    "sub_category": "Creativity and Logic",
+                    "question": "How do you balance creative requirements with technical limitations?",
+                    "answer": "If a creative team asks for a visual feature that degrades system frame rates, I don't reject it. Instead, I analyze the processing bottleneck and propose an optimized technical workaround—like using lower-poly models in the background—that achieves the visual intent while maintaining performance standards."
+                },
+                {
+                    "id": "SONY_HR_001",
+                    "category": "HR",
+                    "sub_category": "Entertainment Tech",
+                    "question": "Why do you want to work at Sony?",
+                    "answer": "Sony creates joy through technology. Whether it's PlayStation engines or advanced image sensors, Sony merges intense mathematical engineering with creative entertainment. Building software that brings high-quality experiences directly into people's living rooms is incredibly inspiring to me."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "branch",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "questionnaireCompleted",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "courseLevel",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "questionnaireCompleted",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

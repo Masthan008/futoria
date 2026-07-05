@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1072707207855",
+    "project_id": "future-pathai",
+    "storage_bucket": "future-pathai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072707207855:android:b28eeae5698cc8e83eca5a",
+        "android_client_info": {
+          "package_name": "com.futurepathai.futurepathai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072707207855-7cd1bdfflp3tc17127n4sakblb9hg3uc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1072707207855-7cd1bdfflp3tc17127n4sakblb9hg3uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futurepathai.futurepathai",
+            "certificate_hash": "9fc76a366d4096ff181f54bc232787a766df0b94"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs3YBkZdsyy2lIL5Md2_0GPqwc1_T5hVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072707207855-7cd1bdfflp3tc17127n4sakblb9hg3uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

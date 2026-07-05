@@ -1,0 +1,27 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "future-pathai",
+          "appId": "1:1072707207855:android:b28eeae5698cc8e83eca5a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "future-pathai",
+          "configurations": {
+            "android": "1:1072707207855:android:b28eeae5698cc8e83eca5a",
+            "ios": "1:1072707207855:ios:0bf333e7ea6f510f3eca5a",
+            "web": "1:1072707207855:web:3b8977c88857b4503eca5a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
